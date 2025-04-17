@@ -65,7 +65,12 @@ public class CalculatorLv1 {
                     }
                 }
 
-                System.out.println(num1 + " " + num2);
+                System.out.println("사칙연산 기호를 입력하세요: ");
+                String strSymbol = sc.nextLine();
+                char chSymbol = type.charAt(0);
+
+
+
 
             }
         }
