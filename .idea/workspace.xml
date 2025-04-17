@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82667037-2be9-42ac-b40f-84156bf669fd" name="Changes" comment="결과값 출력">
-      <change afterPath="$PROJECT_DIR$/src/lv2/CalculatorLv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lv2/Main.java" afterDir="false" />
+    <list default="true" id="82667037-2be9-42ac-b40f-84156bf669fd" name="Changes" comment="사칙연산을 수행 후, 결과값 반환 메서드 구현 &amp; 연산 결과를 저장하는 컬렉션 타입 필드를 가진 Calculator 클래스를 생성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lv2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lv2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv2/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -53,12 +53,12 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="CalculatorLv1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv1.CalculatorLv1" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv2.App" />
       <module name="CalculatorProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lv1.*" />
+          <option name="PATTERN" value="lv2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv2.Main" />
+    <configuration name="CalculatorLv1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv1.CalculatorLv1" />
       <module name="CalculatorProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lv2.*" />
+          <option name="PATTERN" value="lv1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744861138985</updated>
-      <workItem from="1744861140021" duration="7747000" />
+      <workItem from="1744861140021" duration="9047000" />
     </task>
     <task id="LOCAL-00001" summary="empty project">
       <option name="closed" value="true" />
@@ -160,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744866507373</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="사칙연산을 수행 후, 결과값 반환 메서드 구현 &amp; 연산 결과를 저장하는 컬렉션 타입 필드를 가진 Calculator 클래스를 생성">
+      <option name="closed" value="true" />
+      <created>1744871202447</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744871202448</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +191,8 @@
     <MESSAGE value="양의 정수 입력받기" />
     <MESSAGE value="사칙연산 기호 입력받기" />
     <MESSAGE value="결과값 출력" />
-    <option name="LAST_COMMIT_MESSAGE" value="결과값 출력" />
+    <MESSAGE value="사칙연산을 수행 후, 결과값 반환 메서드 구현 &amp; 연산 결과를 저장하는 컬렉션 타입 필드를 가진 Calculator 클래스를 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="사칙연산을 수행 후, 결과값 반환 메서드 구현 &amp; 연산 결과를 저장하는 컬렉션 타입 필드를 가진 Calculator 클래스를 생성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

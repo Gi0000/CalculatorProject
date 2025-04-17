@@ -21,14 +21,17 @@ public class Calculator {
             case '*' : result = num1 * num2;            // 곱셈
                 break;
             case '/' :
-                if (num2 != 0) {
-                    result = num1 / num2;
-                } else {
-                    throw new ArithmeticException("0으로 나눌 수 없습니다.");
+                try {
+                    result = num1 / num2;               // 나눗셈
+                    System.out.println("결과: " + result);
+                    break;
+                } catch (ArithmeticException ae) {      // 분모 0일 경우
+                    System.out.println("나눗셈 연산에서 분모(두번째 정수)에 0이 입력될 수 없습니다.");
+                    break;
                 }
-                break;
             default:                                    // +, -, *, / 이외의 다른 문자열이 들어왔을 경우
-                throw new IllegalArgumentException("유효하지 않은 연산자입니다");
+                System.out.println("잘못된 기호입니다.");
+                break;
         }
 
         resultList.add(result);
