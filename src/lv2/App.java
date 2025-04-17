@@ -12,72 +12,70 @@ public class App {
         int num2 = 0;   // 두 변째 숫자를 담을 변수
 
         while (flag == 0) {         // 계산기 루프
-            while (flag == 0) {     // 연산 루프
-                while (true) {      // 첫 번째 숫자 입력 루프
-                    try {
-                        System.out.print("첫 번째 숫자를 입력하세요 (exit 입력 시 종료): ");
-                        String x1 = sc.nextLine();
 
-                        if (x1.equals("exit")) {
-                            flag += 1;
-                            break; // exit 입력 시 루프 종료
-                        }
+            while (true) {      // 첫 번째 숫자 입력 루프
+                try {
+                    System.out.print("첫 번째 숫자를 입력하세요 (exit 입력 시 종료): ");
+                    String x1 = sc.nextLine();
 
-                        int input1 = Integer.parseInt(x1);
-
-                        if (input1 >= 0) {
-                            num1 = input1;
-                            break;
-                        } else {
-                            System.out.println("0이상 양의 정수를 입력해주세요.");
-                        }
-
-                    } catch (NumberFormatException nfe) {   // 소수 입력 시
-                        System.out.println("0이상 양의 정수를 입력해주세요.");
+                    if (x1.equals("exit")) {
+                        flag += 1;
+                        break; // exit 입력 시 루프 종료
                     }
-                }
 
-                while (true) {  // 두 번째 숫자 입력 루프
+                    int input1 = Integer.parseInt(x1);
 
-                    if (flag != 0) {    // 첫 번째 숫자 자리에 exit 입력될 경우 계산기 종료
+                    if (input1 >= 0) {
+                        num1 = input1;
                         break;
-                    }
-
-                    try {
-                        System.out.print("두 번째 숫자를 입력하세요 (exit 입력 시 종료): ");
-                        String x2 = sc.nextLine();
-
-                        if (x2.equals("exit")) {
-                            flag += 1;
-                            break; // exit 입력 시 루프 종료
-                        }
-
-                        int input2 = Integer.parseInt(x2);
-
-                        if (input2 >= 0) {
-                            num2 = input2;
-                            break;
-                        } else {
-                            System.out.println("0이상 양의 정수를 입력해주세요.");
-                        }
-
-                    } catch (NumberFormatException nfe) {   // 소수 입력 시
+                    } else {
                         System.out.println("0이상 양의 정수를 입력해주세요.");
                     }
-                }
 
-                if (flag != 0) {
+                } catch (NumberFormatException nfe) {   // 소수 입력 시
+                    System.out.println("0이상 양의 정수를 입력해주세요.");
+                }
+            }
+
+            while (true) {  // 두 번째 숫자 입력 루프
+
+                if (flag != 0) {    // 첫 번째 숫자 자리에 exit 입력될 경우 계산기 종료
                     break;
                 }
 
-                System.out.println("사칙연산 기호를 입력하세요: ");
-                String strSymbol = sc.nextLine();
-                char chSymbol = strSymbol.charAt(0);    // 문자열을 문자로 변환
+                try {
+                    System.out.print("두 번째 숫자를 입력하세요 (exit 입력 시 종료): ");
+                    String x2 = sc.nextLine();
 
-                cal.calculate(num1, num2, chSymbol);
-                System.out.println(cal.getResultList());
+                    if (x2.equals("exit")) {
+                        flag += 1;
+                        break; // exit 입력 시 루프 종료
+                    }
 
+                    int input2 = Integer.parseInt(x2);
+
+                    if (input2 >= 0) {
+                        num2 = input2;
+                        break;
+                    } else {
+                        System.out.println("0이상 양의 정수를 입력해주세요.");
+                    }
+
+                } catch (NumberFormatException nfe) {   // 소수 입력 시
+                    System.out.println("0이상 양의 정수를 입력해주세요.");
+                }
             }
+
+            if (flag != 0) {
+                break;
+            }
+
+            System.out.println("사칙연산 기호를 입력하세요: ");
+            String strSymbol = sc.nextLine();
+            char chSymbol = strSymbol.charAt(0);    // 문자열을 문자로 변환
+
+            cal.calculate(num1, num2, chSymbol);
+            System.out.println(cal.getResultList());
         }
         System.out.println("계산기를 종료합니다.");
         System.out.println(cal.getResultList());    // removeResilt 전

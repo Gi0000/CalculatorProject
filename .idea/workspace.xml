@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82667037-2be9-42ac-b40f-84156bf669fd" name="Changes" comment="lv2 main 메서드 구현">
+    <list default="true" id="82667037-2be9-42ac-b40f-84156bf669fd" name="Changes" comment="getter, setter, removeResult 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lv2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv2/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2vq8FO9ibNJpg3QWxDiDl7dGsyY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "Application.CalculatorLv1.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -52,7 +52,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CalculatorLv1">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lv2.App" />
       <module name="CalculatorProject" />
@@ -81,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CalculatorLv1" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +94,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744861138985</updated>
-      <workItem from="1744861140021" duration="10120000" />
+      <workItem from="1744861140021" duration="10944000" />
+      <workItem from="1744887827149" duration="349000" />
     </task>
     <task id="LOCAL-00001" summary="empty project">
       <option name="closed" value="true" />
@@ -176,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744871848209</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="getter, setter, removeResult 구현">
+      <option name="closed" value="true" />
+      <created>1744873080817</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744873080817</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +210,8 @@
     <MESSAGE value="결과값 출력" />
     <MESSAGE value="사칙연산을 수행 후, 결과값 반환 메서드 구현 &amp; 연산 결과를 저장하는 컬렉션 타입 필드를 가진 Calculator 클래스를 생성" />
     <MESSAGE value="lv2 main 메서드 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="lv2 main 메서드 구현" />
+    <MESSAGE value="getter, setter, removeResult 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="getter, setter, removeResult 구현" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
