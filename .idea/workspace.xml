@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82667037-2be9-42ac-b40f-84156bf669fd" name="Changes" comment="first commit">
+    <list default="true" id="82667037-2be9-42ac-b40f-84156bf669fd" name="Changes" comment="사칙연산 기호 입력받기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lv1/CalculatorLv1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv1/CalculatorLv1.java" afterDir="false" />
     </list>
@@ -77,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744861138985</updated>
-      <workItem from="1744861140021" duration="3875000" />
+      <workItem from="1744861140021" duration="4937000" />
     </task>
     <task id="LOCAL-00001" summary="empty project">
       <option name="closed" value="true" />
@@ -95,7 +95,31 @@
       <option name="project" value="LOCAL" />
       <updated>1744861937146</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="양의 정수 입력받기">
+      <option name="closed" value="true" />
+      <created>1744865097349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744865097349</updated>
+    </task>
+    <task id="LOCAL-00004" summary="사칙연산 기호 입력받기">
+      <option name="closed" value="true" />
+      <created>1744865443846</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744865443846</updated>
+    </task>
+    <task id="LOCAL-00005" summary="사칙연산 기호 입력받기">
+      <option name="closed" value="true" />
+      <created>1744865455277</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744865455277</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +139,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="empty project" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="양의 정수 입력받기" />
+    <MESSAGE value="사칙연산 기호 입력받기" />
+    <option name="LAST_COMMIT_MESSAGE" value="사칙연산 기호 입력받기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

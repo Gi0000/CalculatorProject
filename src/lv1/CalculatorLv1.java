@@ -31,14 +31,14 @@ public class CalculatorLv1 {
                             System.out.println("0이상 양의 정수를 입력해주세요.");
                         }
 
-                    } catch (NumberFormatException nfe) {
+                    } catch (NumberFormatException nfe) {   // 소수 입력 시
                         System.out.println("0이상 양의 정수를 입력해주세요.");
                     }
                 }
 
                 while (true) {  // 두 번째 숫자 입력 루프
 
-                    if (flag == 1) {    // 첫 번째 숫자 자리에 exit 입력될 경우 계산기 종료
+                    if (flag != 0) {    // 첫 번째 숫자 자리에 exit 입력될 경우 계산기 종료
                         break;
                     }
 
@@ -60,21 +60,47 @@ public class CalculatorLv1 {
                             System.out.println("0이상 양의 정수를 입력해주세요.");
                         }
 
-                    } catch (NumberFormatException nfe) {
+                    } catch (NumberFormatException nfe) {   // 소수 입력 시
                         System.out.println("0이상 양의 정수를 입력해주세요.");
                     }
+                }
+
+                if (flag != 0) {
+                    break;
                 }
 
                 System.out.println("사칙연산 기호를 입력하세요: ");
                 String strSymbol = sc.nextLine();
                 char chSymbol = strSymbol.charAt(0);
 
+                int result = 0;
 
+                switch (chSymbol) {
+                    case '+' : result = num1 + num2;
+                        System.out.println("결과: " + result);
+                        break;
+                    case '-' : result = num1 - num2;
+                        System.out.println("결과: " + result);
+                        break;
+                    case '*' : result = num1 * num2;
+                        System.out.println("결과: " + result);
+                        break;
+                    case '/' :
+                        try {
+                            result = num1 / num2;
+                            System.out.println("결과: " + result);
+                            break;
+                        } catch (ArithmeticException ae) {
+                            System.out.println("나눗셈 연산에서 분모(두번째 정수)에 0이 입력될 수 없습니다.");
+                            break;
+                        }
 
-
+                    default:
+                        System.out.println("잘못된 기호입니다.");
+                        break;
+                }
             }
         }
-
         System.out.println("계산기를 종료합니다.");
     }
 }
