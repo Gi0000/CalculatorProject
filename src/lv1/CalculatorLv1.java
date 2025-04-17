@@ -6,13 +6,13 @@ public class CalculatorLv1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int flag = 0;
-        int num1 = 0;
-        int num2 = 0;
+        int flag = 0;   // exit 입력받을 시 루프 빠져나기 위한 변수
+        int num1 = 0;   // 첫 번째 숫자를 담을 변수
+        int num2 = 0;   // 두 변째 숫자를 담을 변수
 
-        while (flag == 0) {     // 계산기 루프
-            while (flag == 0) {      // 연산 루프
-                while (true) {  // 첫 번째 숫자 입력 루프
+        while (flag == 0) {         // 계산기 루프
+            while (flag == 0) {     // 연산 루프
+                while (true) {      // 첫 번째 숫자 입력 루프
                     try {
                         System.out.print("첫 번째 숫자를 입력하세요: ");
                         String x1 = sc.nextLine();
@@ -71,30 +71,30 @@ public class CalculatorLv1 {
 
                 System.out.println("사칙연산 기호를 입력하세요: ");
                 String strSymbol = sc.nextLine();
-                char chSymbol = strSymbol.charAt(0);
+                char chSymbol = strSymbol.charAt(0);    // 문자열을 문자로 변환
 
-                int result = 0;
+                int result = 0; // 결과 담을 변수
 
                 switch (chSymbol) {
-                    case '+' : result = num1 + num2;
+                    case '+' : result = num1 + num2;            // 덧셈
                         System.out.println("결과: " + result);
                         break;
-                    case '-' : result = num1 - num2;
+                    case '-' : result = num1 - num2;            // 뺄셈
                         System.out.println("결과: " + result);
                         break;
-                    case '*' : result = num1 * num2;
+                    case '*' : result = num1 * num2;            // 곱셈
                         System.out.println("결과: " + result);
                         break;
                     case '/' :
                         try {
-                            result = num1 / num2;
+                            result = num1 / num2;               // 나눗셈
                             System.out.println("결과: " + result);
                             break;
-                        } catch (ArithmeticException ae) {
+                        } catch (ArithmeticException ae) {      // 분모 0일 경우
                             System.out.println("나눗셈 연산에서 분모(두번째 정수)에 0이 입력될 수 없습니다.");
                             break;
                         }
-                    default:
+                    default:                                    // +, -, *, / 이외의 다른 문자열이 들어왔을 경우
                         System.out.println("잘못된 기호입니다.");
                         break;
                 }
