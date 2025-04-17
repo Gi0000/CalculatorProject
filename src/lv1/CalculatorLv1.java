@@ -67,7 +67,7 @@ public class CalculatorLv1 {
 
                 System.out.println("사칙연산 기호를 입력하세요: ");
                 String strSymbol = sc.nextLine();
-                char chSymbol = type.charAt(0);
+                char chSymbol = strSymbol.charAt(0);
 
 
 
