@@ -74,10 +74,14 @@ public class App {
                 String strSymbol = sc.nextLine();
                 char chSymbol = strSymbol.charAt(0);    // 문자열을 문자로 변환
 
-                System.out.println("결과: " + cal.calculate(num1, num2, chSymbol));
+                cal.calculate(num1, num2, chSymbol);
+                System.out.println(cal.getResultList());
 
             }
         }
         System.out.println("계산기를 종료합니다.");
+        System.out.println(cal.getResultList());    // removeResilt 전
+        cal.removeResult();
+        System.out.println(cal.getResultList());    // removeResilt 후
     }
 }

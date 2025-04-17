@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82667037-2be9-42ac-b40f-84156bf669fd" name="Changes" comment="사칙연산을 수행 후, 결과값 반환 메서드 구현 &amp; 연산 결과를 저장하는 컬렉션 타입 필드를 가진 Calculator 클래스를 생성">
+    <list default="true" id="82667037-2be9-42ac-b40f-84156bf669fd" name="Changes" comment="lv2 main 메서드 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lv2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv2/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lv2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv2/Calculator.java" afterDir="false" />
@@ -94,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744861138985</updated>
-      <workItem from="1744861140021" duration="9047000" />
+      <workItem from="1744861140021" duration="10120000" />
     </task>
     <task id="LOCAL-00001" summary="empty project">
       <option name="closed" value="true" />
@@ -168,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744871202448</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lv2 main 메서드 구현">
+      <option name="closed" value="true" />
+      <created>1744871848209</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744871848209</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +200,8 @@
     <MESSAGE value="사칙연산 기호 입력받기" />
     <MESSAGE value="결과값 출력" />
     <MESSAGE value="사칙연산을 수행 후, 결과값 반환 메서드 구현 &amp; 연산 결과를 저장하는 컬렉션 타입 필드를 가진 Calculator 클래스를 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="사칙연산을 수행 후, 결과값 반환 메서드 구현 &amp; 연산 결과를 저장하는 컬렉션 타입 필드를 가진 Calculator 클래스를 생성" />
+    <MESSAGE value="lv2 main 메서드 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="lv2 main 메서드 구현" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
