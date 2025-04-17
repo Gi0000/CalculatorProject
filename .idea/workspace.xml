@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82667037-2be9-42ac-b40f-84156bf669fd" name="Changes" comment="사칙연산 기호 입력받기">
+    <list default="true" id="82667037-2be9-42ac-b40f-84156bf669fd" name="Changes" comment="결과값 출력">
+      <change afterPath="$PROJECT_DIR$/src/lv2/CalculatorLv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lv2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv1/CalculatorLv1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv1/CalculatorLv1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CalculatorLv1.executor": "Run",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -49,7 +52,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CalculatorLv1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lv1.CalculatorLv1" />
       <module name="CalculatorProject" />
@@ -63,8 +66,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv2.Main" />
+      <module name="CalculatorProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CalculatorLv1" />
       </list>
     </recent_temporary>
@@ -77,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744861138985</updated>
-      <workItem from="1744861140021" duration="4937000" />
+      <workItem from="1744861140021" duration="7747000" />
     </task>
     <task id="LOCAL-00001" summary="empty project">
       <option name="closed" value="true" />
@@ -119,7 +136,31 @@
       <option name="project" value="LOCAL" />
       <updated>1744865455277</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="사칙연산 기호 입력받기">
+      <option name="closed" value="true" />
+      <created>1744866179085</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744866179085</updated>
+    </task>
+    <task id="LOCAL-00007" summary="결과값 출력">
+      <option name="closed" value="true" />
+      <created>1744866220189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744866220189</updated>
+    </task>
+    <task id="LOCAL-00008" summary="결과값 출력">
+      <option name="closed" value="true" />
+      <created>1744866507373</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744866507373</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,18 +182,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="양의 정수 입력받기" />
     <MESSAGE value="사칙연산 기호 입력받기" />
-    <option name="LAST_COMMIT_MESSAGE" value="사칙연산 기호 입력받기" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="결과값 출력" />
+    <option name="LAST_COMMIT_MESSAGE" value="결과값 출력" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
