@@ -1,11 +1,13 @@
 package lv3;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        List<Number> resultList = new ArrayList<>();
 
         int flag = 0;   // exit 입력받을 시 루프 빠져나기 위한 변수
         double num1 = 0;   // 첫 번째 숫자를 담을 변수
@@ -65,15 +67,29 @@ public class App {
                 }
             }
 
-            if (flag != 0) {
+            if (flag != 0) {    // 두 번째 숫자 자리에 exit 입력될 경우 계산기 종료
                 break;
             }
 
             System.out.println("사칙연산 기호를 입력하세요: ");
             String strSymbol = sc.nextLine();
 
-            ArithmeticCalculator calculator = new ArithmeticCalculator(num1, num2, strSymbol);
-            System.out.println(calculator.calculate());
+            try {
+                ArithmeticCalculator calculator = new ArithmeticCalculator(num1, num2, strSymbol);
+                resultList.add(calculator.calculate());
+                System.out.println(calculator.calculate());
+                System.out.println(resultList);
+
+                System.out.print("기준값 입력: ");
+                double condition = sc.nextDouble();
+                sc.nextLine();
+
+                System.out.println(calculator.getResultsGreaterThan(resultList, condition));
+            } catch (ArithmeticException e) {   // 분모가 0일 경우
+                System.out.println(e.getMessage());
+            }
         }
+        System.out.println("계산기를 종료합니다.");
+        System.out.println(resultList);
     }
 }

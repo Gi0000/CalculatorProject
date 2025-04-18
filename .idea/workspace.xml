@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82667037-2be9-42ac-b40f-84156bf669fd" name="Changes" comment="ArithmeticCalculator에서 Main 메서드 분리(App)">
+    <list default="true" id="82667037-2be9-42ac-b40f-84156bf669fd" name="Changes" comment="double 타입의 값을 전달 받아도 연산이 수행하도록 만들기">
       <change afterPath="$PROJECT_DIR$/src/test/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/ArithmeticCalculator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/OperatorType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lv3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv3/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lv3/ArithmeticCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv3/ArithmeticCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lv3/OperatorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv3/OperatorType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +111,7 @@
       <updated>1744861138985</updated>
       <workItem from="1744861140021" duration="10944000" />
       <workItem from="1744887827149" duration="537000" />
-      <workItem from="1744953675884" duration="4812000" />
+      <workItem from="1744953675884" duration="9343000" />
     </task>
     <task id="LOCAL-00001" summary="empty project">
       <option name="closed" value="true" />
@@ -222,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744957352436</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="double 타입의 값을 전달 받아도 연산이 수행하도록 만들기">
+      <option name="closed" value="true" />
+      <created>1744958893306</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744958893306</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +262,8 @@
     <MESSAGE value="while문 수정" />
     <MESSAGE value="Enum 타입을 활용하여 연산자 타입에 대한 정보를 관리하고 이를 사칙연산 계산기 ArithmeticCalculator 클래스에 활용" />
     <MESSAGE value="ArithmeticCalculator에서 Main 메서드 분리(App)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArithmeticCalculator에서 Main 메서드 분리(App)" />
+    <MESSAGE value="double 타입의 값을 전달 받아도 연산이 수행하도록 만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="double 타입의 값을 전달 받아도 연산이 수행하도록 만들기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

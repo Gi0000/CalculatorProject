@@ -1,5 +1,8 @@
 package lv3;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class ArithmeticCalculator <T extends Number> {
     private final T num1;
     private final T num2;
@@ -19,5 +22,11 @@ public class ArithmeticCalculator <T extends Number> {
         } else {
             return result;
         }
+    }
+
+    public List<Number> getResultsGreaterThan(List<Number> resultList, Number value) {
+        return resultList.stream()
+                .filter(result -> result.doubleValue() > value.doubleValue())
+                .collect(Collectors.toList());
     }
 }
