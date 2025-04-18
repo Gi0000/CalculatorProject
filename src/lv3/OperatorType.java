@@ -19,9 +19,11 @@ public enum OperatorType {
     DIVIDE("/") {
         public int cal(int a, int b) {
             if (b == 0) {
-                throw new ArithmeticException("0으로 나눌 수 없습니다.");
+                System.out.println("나눗셈 연산에서 분모(두 번째 정수)에 0이 입력될 수 없습니다.");
+                return 0; // 또는 return -1 등으로 예외 상황임을 알리는 값 반환
+            } else {
+                return a / b;
             }
-            return a / b;
         }
     };
 
