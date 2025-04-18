@@ -8,8 +8,8 @@ public class App {
 
 
         int flag = 0;   // exit 입력받을 시 루프 빠져나기 위한 변수
-        int num1 = 0;   // 첫 번째 숫자를 담을 변수
-        int num2 = 0;   // 두 변째 숫자를 담을 변수
+        double num1 = 0;   // 첫 번째 숫자를 담을 변수
+        double num2 = 0;   // 두 변째 숫자를 담을 변수
 
         while (flag == 0) {         // 계산기 루프
             while (true) {      // 첫 번째 숫자 입력 루프
@@ -22,7 +22,7 @@ public class App {
                         break; // exit 입력 시 루프 종료
                     }
 
-                    int input1 = Integer.parseInt(x1);
+                    double input1 = Double.parseDouble(x1);
 
                     if (input1 >= 0) {
                         num1 = input1;
@@ -51,7 +51,7 @@ public class App {
                         break; // exit 입력 시 루프 종료
                     }
 
-                    int input2 = Integer.parseInt(x2);
+                    double input2 = Double.parseDouble(x2);
 
                     if (input2 >= 0) {
                         num2 = input2;
