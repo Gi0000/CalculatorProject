@@ -78,8 +78,8 @@ public class App {
             System.out.println(cal.getResultList());
         }
         System.out.println("계산기를 종료합니다.");
-        System.out.println(cal.getResultList());    // removeResilt 전
+        System.out.println(cal.getResultList());    // removeResult 전
         cal.removeResult();
-        System.out.println(cal.getResultList());    // removeResilt 후
+        System.out.println(cal.getResultList());    // removeResult 후
     }
 }

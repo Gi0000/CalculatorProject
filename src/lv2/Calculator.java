@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class Calculator {
+    // 속성
     private List<Integer> resultList;
 
     // 생성자
@@ -13,6 +14,7 @@ public class Calculator {
         resultList = new LinkedList<>();
     }
 
+    // 기능
     public int calculate(int num1, int num2, int operator) {
         int result = 0;
 
@@ -32,7 +34,7 @@ public class Calculator {
             case '/':
                 if (num2 == 0) {
                     System.out.println("나눗셈 연산에서 분모(두 번째 정수)에 0이 입력될 수 없습니다.");
-                    return 0; // 또는 return -1 등으로 예외 상황임을 알리는 값 반환
+                    return 0;
                 } else {
                     result = num1 / num2;
                 }
@@ -40,7 +42,7 @@ public class Calculator {
 
             default:
                 System.out.println("잘못된 연산 기호입니다.");
-                return 0; // 또는 return -1 등으로 처리
+                return 0;
         }
 
         resultList.add(result);
